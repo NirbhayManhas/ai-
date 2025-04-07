@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ADHD Productivity Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>ADHD Assistant</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#tips">Tips</a>
+                <a href="#tools">Tools</a>
+                <a href="#chat">Chat</a>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Your Personal ADHD Productivity Assistant</h1>
+                <p>Stay focused, organized, and motivated with AI-powered tools designed for your unique needs.</p>
+                <div class="cta-buttons">
+                    <button class="primary-btn">
+                        <i class="fas fa-rocket"></i>
+                        Get Started
+                    </button>
+                    <button class="secondary-btn">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="adhd1.jpg" alt="ADHD word cloud with related terms like hyperactivity, attention, and deficit" class="hero-img">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Pomodoro Timer</h3>
+                    <p>Customizable focus sessions with built-in breaks</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Task Manager</h3>
+                    <p>Simple, distraction-free task tracking</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Assistant</h3>
+                    <p>Personalized productivity advice</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Progress Tracking</h3>
+                    <p>Visualize your achievements</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="tools">
+            <h2>Productivity Tools</h2>
+            <div class="tools-container">
+                <div class="tool-card">
+                    <h3>Focus Timer</h3>
+                    <div class="timer-display">25:00</div>
+                    <div class="timer-controls">
+                        <button class="timer-btn">
+                            <i class="fas fa-play"></i>
+                            Start
+                        </button>
+                        <button class="timer-btn">
+                            <i class="fas fa-redo"></i>
+                            Reset
+                        </button>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <h3>Task List</h3>
+                    <div class="task-input">
+                        <input type="text" placeholder="Add a new task...">
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                    <ul class="task-list"></ul>
+                </div>
+                <div class="tool-card">
+                    <h3>Mood Check-in</h3>
+                    <div class="mood-selector">
+                        <button class="mood-btn" data-mood="happy">😊</button>
+                        <button class="mood-btn" data-mood="neutral">😐</button>
+                        <button class="mood-btn" data-mood="sad">😔</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="chat" class="chat-section">
+            <h2>AI Assistant</h2>
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <div class="message ai">
+                        <div class="message-header">
+                            <i class="fas fa-robot"></i>
+                            <span>ADHD Assistant</span>
+                        </div>
+                        <p>Hello! I'm your ADHD productivity assistant. How can I help you today?</p>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Ask me anything about productivity...">
+                    <button>
+                        <i class="fas fa-paper-plane"></i>
+                        Send
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>An AI-powered assistant designed to help individuals with ADHD improve their productivity and focus.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tips">Tips</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#chat">Chat</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Have questions? We're here to help!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AI ADHD Productivity Assistant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
